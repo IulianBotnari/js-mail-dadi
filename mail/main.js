@@ -7,7 +7,7 @@ let user = prompt("Inserisci user")
 
 
 
-if (user.includes(userList[0]||[1]||[2])) {
+if (userList.includes(user)) {
     prompt("Inserisci mail")
     alert ("email inserita");
     
