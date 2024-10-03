@@ -1,18 +1,17 @@
 
 // email
 
-let userList = ["tizio, caio, sempronio"]
+let userList = ["tizio", "caio", "sempronio"]
 
 let user = prompt("Inserisci user")
 
-let emailUser
 
 
-if (user = userList[0] || [1] || [2]){
-    emailUser = prompt("Inserisci mail")
-    console.log("email inserita");
+if (user.includes(userList[0]||[1]||[2])) {
+    prompt("Inserisci mail")
+    alert ("email inserita");
     
 } else {
-    console.log("ci hai provato");
+    alert ("ci hai provato");
     
 }
